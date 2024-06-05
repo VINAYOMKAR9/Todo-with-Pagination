@@ -41,7 +41,7 @@ function pagi(){
     container.innerHTML=null
     total_D=200;
     lim = 10;
-    let aver_Data= total_D/lim
+    let aver_Data= Math.ceil(total_D/lim)
     for(let i = 1;i<=aver_Data;i++){
         let btnn = document.createElement('button');
         btnn.textContent=i;
